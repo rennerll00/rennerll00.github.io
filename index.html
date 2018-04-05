@@ -16,6 +16,11 @@
 		function hideURLbar() {
 			window.scrollTo(0, 1);
 		}
+
+		var video = document.querySelector('video');
+		video.addEventListener('ended', function() {
+			video.load();
+		});
 	</script>
 	<!-- //Meta Tags -->
 	<!-- Style Sheets -->
@@ -77,7 +82,7 @@
 				<h2><span>R</span>enner <span>L</span>ucena</h2>
 				<p>Working towards a better future</p>
 				<div class="botton">
-					<a href="#about" class="scroll">About me <span class="fa fa-caret-right"></span></a>
+					<a href="#about" class="scroll">About me<span class="fa fa-caret-right"></span></a>
 				</div>
 			</div>
 		</div>
@@ -120,60 +125,64 @@
 	<!-- gallery -->
 	<div class="gallery" id="portfolio">
 		<div class="container">
-			<div class="title-wthree">
+			<div class="title-wthree gallery-title">
 				<h5 class="title-w3">Portifolio</h5>
 				<div class="clearfix"></div>
 			</div>
 			<div class="w3ls_gallery_grids">
 				<div class="col-md-4 w3_agile_gallery_grid">
 					<div class="agile_gallery_grid">
-						<video width="320" height="240" controls poster="images/flip_pagamentos.jpg">
-	   					<source src="videos/flip_android.mp4" type="video/mp4">Your browser does not support the video tag.
+						<video width="320" height="240" controls poster="images/stone.jpg">
+	   					<source src="videos/flip_ios.mp4" type="video/mp4">Your browser does not support the video tag.
 						</video>
-						<p>Asd</p>
+						<p>QR Code Payment - Flip iOS</p>
+					</div>
+					<div class="agile_gallery_grid">
+						<video width="320" height="240" controls poster="images/stone.jpg">
+							<source src="videos/flip_ios.mp4" type="video/mp4">Your browser does not support the video tag.
+						</video>
+						<p>Bank Prototype - Stone Banking iOS</p>
 					</div>
 					<div class="agile_gallery_grid">
 						<div class="agile_gallery_grid1">
-							<img src="images/coming_soon.jpg" alt=" " class="img-responsive" />
-						</div>
-					</div>
-					<div class="agile_gallery_grid">
-						<div class="agile_gallery_grid1">
-							<img src="images/coming_soon.jpg" alt=" " class="img-responsive" />
+							<img src="images/coming_soon.jpg" alt=" " class="img-gallery" />
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 w3_agile_gallery_grid">
 					<div class="agile_gallery_grid">
-						<video width="320" height="240" controls poster="images/flip_pagamentos.jpg">
+						<video width="320" height="240" controls poster="images/stone.jpg">
 							<source src="videos/flip_android.mp4" type="video/mp4">Your browser does not support the video tag.
 						</video>
+						<p>QR Code Payment - Flip Android</p>
+					</div>
+					<div class="agile_gallery_grid">
+						<video width="320" height="240" controls poster="images/tree_hacks.jpg">
+							<source src="videos/flip_ios.mp4" type="video/mp4">Your browser does not support the video tag.
+						</video>
+						<p>Well-being By Voice - Octavia Alexa Skill</p>
 					</div>
 					<div class="agile_gallery_grid">
 						<div class="agile_gallery_grid1">
-							<img src="images/coming_soon.jpg" alt=" " class="img-responsive" />
-						</div>
-					</div>
-					<div class="agile_gallery_grid">
-						<div class="agile_gallery_grid1">
-							<img src="images/coming_soon.jpg" alt=" " class="img-responsive" />
+							<img src="images/coming_soon.jpg" alt=" " class="img-gallery" />
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 w3_agile_gallery_grid">
 					<div class="agile_gallery_grid">
-						<video width="320" height="240" controls poster="images/flip_pagamentos.jpg">
-							<source src="videos/flip_android.mp4" type="video/mp4">Your browser does not support the video tag.
+						<video width="320" height="240" controls poster="images/stone.jpg">
+							<source src="videos/flip_dashboard.mp4" type="video/mp4">Your browser does not support the video tag.
 						</video>
+						<p>QR Code Generation - Flip Web</p>
 					</div>
 					<div class="agile_gallery_grid">
 						<div class="agile_gallery_grid1">
-							<img src="images/coming_soon.jpg" alt=" " class="img-responsive" />
+							<img src="images/coming_soon.jpg" alt=" " class="img-gallery" />
 						</div>
 					</div>
 					<div class="agile_gallery_grid">
 						<div class="agile_gallery_grid1">
-							<img src="images/coming_soon.jpg" alt=" " class="img-responsive" />
+							<img src="images/coming_soon.jpg" alt=" " class="img-gallery" />
 						</div>
 					</div>
 				</div>
