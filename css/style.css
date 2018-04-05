@@ -452,9 +452,9 @@ nav.shift ul li a:hover:after {
 	margin-top: -3.75em;
 }
 
-.gallery-title {
-	margin-bottom: -3.75em;
-}
+/* .gallery-title {
+	margin-bottom: em;
+} */
 
 h5.title-w3 {
 	font-size: 2.2em;
@@ -1092,10 +1092,11 @@ h3.subheading-agileits-w3layouts {
 
 .agile_gallery_grid {
 	margin-top: 2em;
-	margin-bottom: -2em;
+	margin-bottom: 0em;
 }
 
 .agile_gallery_grid p {
+	margin-left: -2em;
 	text-align: center;
 	color: #777;
 }
@@ -1204,6 +1205,7 @@ h3.subheading-agileits-w3layouts {
 }
 
 .contact-right-wthree {
+	margin-bottom: -2.5em;
 	background: url(../images/award.jpg)no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1238,7 +1240,6 @@ h3.subheading-agileits-w3layouts {
 
 .w3l-social ul {
 	padding: 0;
-	margin: 0;
 }
 
 .w3l-social ul li {
@@ -1250,8 +1251,8 @@ h3.subheading-agileits-w3layouts {
 }
 
 .w3l-social ul li a.fa.fa-facebook,
-.w3l-social ul li a.fa.fa-twitter,
-.w3l-social ul li a.fa.fa-google-plus {
+.w3l-social ul li a.fa.fa-linkedin,
+.w3l-social ul li a.fa.fa-github {
 	width: 35px;
 	color: #ffffff;
 	border-radius: 50%;
